@@ -152,9 +152,19 @@ input {
 
 .title + p {
     color: rgb(106, 96, 84);
+    font-weight: 325;
 }
 
 .cardImages {
     display: flex;
     background-color: #7c3aed;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    box-shadow: 4px 4px 2px -2px rgb(193, 193, 193);
 }
