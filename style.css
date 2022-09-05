@@ -136,4 +136,15 @@ input {
     box-shadow: 4px 4px 2px -2px rgb(193, 193, 193);
     border-left: 8px solid #f0abfc;
     padding: 30px 50px 25px 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph {
+    flex-grow: 1;
+}
+
+.cardImages {
+    display: flex;
+    background-color: #7c3aed;
 }
