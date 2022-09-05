@@ -196,10 +196,18 @@ input {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(4, 1fr);
+    row-gap: 15px;
+    font-weight: 325;
+    font-size: 15px;
 }
 
 .userImgs {
     grid-row: span 4;
     display: grid;
     grid-template-rows: repeat(4, 1fr);
+    row-gap: 15px;
+}
+
+.names {
+    color: rgb(106, 96, 84);
 }
