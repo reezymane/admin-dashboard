@@ -106,7 +106,9 @@ input {
     z-index: -2;
     display: grid;
     grid-template-columns: 8fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
     column-gap: 15px;
+    row-gap: 30px;
 }
 
 .projects {
@@ -182,4 +184,14 @@ input {
     color: rgb(106, 96, 84);
     font-weight: 325;
     text-overflow: ellipsis;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.trendingUsers {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 2px -2px rgb(193, 193, 193);
+    
 }
