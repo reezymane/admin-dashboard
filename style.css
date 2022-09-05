@@ -100,7 +100,7 @@ input {
 }
 
 .mainContents {
-    padding: 30px 25px 70px 25px;
+    padding: 30px 25px 50px 25px;
     background-color: #f5f3ff9d;
     position: relative;
     z-index: -2;
@@ -111,9 +111,12 @@ input {
 
 .projects {
     grid-row: span 2;
+}
+
+.allCards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 4fr 4fr 4fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 15px;
 }
 
