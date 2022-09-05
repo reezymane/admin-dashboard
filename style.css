@@ -6,7 +6,7 @@
 /*Global width and font*/
 html {
     width: clamp(960px, 1440px, 1920px);
-    font-family: 'Copperplate', fantasy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*Create grid for overall page*/
@@ -26,7 +26,7 @@ html {
 
     background-color: #7c3aed;
     color: rgb(255, 250, 243);
-    font-weight: bold;
+    font-weight: 550;
 
     padding-left: 20px;
     padding-top: 20px;
@@ -44,7 +44,7 @@ li {
 
 .headerDiv {
     padding: 20px 60px 0 40px;
-    font-weight: bold;
+    font-weight: 550;
     box-shadow: 0 4px 2px -2px rgb(193, 193, 193);
 }
 
@@ -87,7 +87,7 @@ input {
     border-color: #7c3aed00;
     background-color: #7c3aed;
     color: rgb(255, 250, 243);
-    font-weight: bold;
+    font-weight: 550;
 }
 
 .bottomHeader {
@@ -125,9 +125,9 @@ input {
 }
 
 .sectionTitle {
-    font-size: 19px;
+    font-size: 20px;
     margin-bottom: 8px;
-    font-weight: bold;
+    font-weight: 550;
 }
 
 .card {
@@ -142,6 +142,16 @@ input {
 
 .paragraph {
     flex-grow: 1;
+}
+
+.title {
+    font-weight: 550;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.title + p {
+    color: rgb(106, 96, 84);
 }
 
 .cardImages {
