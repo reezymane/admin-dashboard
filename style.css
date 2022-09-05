@@ -123,3 +123,9 @@ input {
 .projects > .sectionTitle {
     grid-column: span 2;
 }
+
+.sectionTitle {
+    font-size: 19px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
