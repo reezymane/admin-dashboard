@@ -2,3 +2,8 @@
     margin: 0;
     padding: 0;
   }
+
+html {
+    width: clamp(960px, 1440px, 1920px);
+    font-family: 'Copperplate', fantasy;
+}
