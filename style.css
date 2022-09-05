@@ -42,7 +42,7 @@ li {
     margin: 13px 0;
 }
 
-header {
+.headerDiv {
     padding: 20px 60px 0 40px;
     font-weight: bold;
 }
@@ -66,6 +66,11 @@ input {
     border-color: rgba(209, 209, 209, 0);
 }
 
+.user {
+    font-size: 17px;
+    padding-right: 15px;
+}
+
 .greeting {
     flex-grow: 1;
 }
@@ -82,4 +87,9 @@ input {
     background-color: #7c3aed;
     color: rgb(255, 250, 243);
     font-weight: bold;
+}
+
+.bottomHeader {
+    margin-top: 40px;
+    padding-bottom: 15px;
 }
