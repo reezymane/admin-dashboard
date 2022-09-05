@@ -44,9 +44,11 @@ li {
 
 header {
     padding: 20px 60px 0 40px;
+    font-weight: bold;
 }
 
-.topHeader {
+.topHeader,
+.bottomHeader {
     display: flex;
     gap: 15px;
 }
@@ -62,4 +64,22 @@ input {
     background-color: rgb(222, 222, 222);
     border-radius: 25px;
     border-color: rgba(209, 209, 209, 0);
+}
+
+.greeting {
+    flex-grow: 1;
+}
+
+.userButtons {
+    display: flex;
+    gap: 25px;
+}
+
+.userButtons > button {
+    padding: 0 30px 0 30px;
+    border-radius: 25px;
+    border-color: #7c3aed00;
+    background-color: #7c3aed;
+    color: rgb(255, 250, 243);
+    font-weight: bold;
 }
