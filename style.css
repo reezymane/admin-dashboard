@@ -168,3 +168,7 @@ input {
     padding: 10px 5px 10px 5px;
     box-shadow: 4px 4px 2px -2px rgb(193, 193, 193);
 }
+
+.articles > div {
+    padding: 10px;
+}
