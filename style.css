@@ -24,12 +24,12 @@ html {
     grid-template-rows: min-content min-content min-content;
     gap: 50px;
 
-    background-color: #5b21b6;
-    color: aliceblue;
+    background-color: #7c3aed;
+    color: rgb(255, 250, 243);
     font-weight: bold;
 
-    padding-left: 13px;
-    padding-top: 13px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .sideTitle {
@@ -40,4 +40,22 @@ li {
     list-style: none;
     font-size: 20px;
     margin: 13px 0;
+}
+
+header {
+    padding: 20px 60px 0 40px;
+}
+
+.topHeader {
+    display: flex;
+    gap: 15px;
+}
+
+form {
+    flex-grow: 1;
+    padding-right: 80px;
+}
+
+input {
+    width: 100%;
 }
