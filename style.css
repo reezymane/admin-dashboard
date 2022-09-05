@@ -197,3 +197,9 @@ input {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(4, 1fr);
 }
+
+.userImgs {
+    grid-row: span 4;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
