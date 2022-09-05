@@ -98,3 +98,10 @@ input {
 .username {
     font-size: 21px;
 }
+
+.mainContents {
+    padding: 30px 20px 70px 25px;
+    background-color: #f5f3ff9d;
+    position: relative;
+    z-index: -2;
+}
