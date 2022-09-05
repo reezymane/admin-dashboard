@@ -17,15 +17,27 @@ html {
 }
 
 .sidebar {
-    /*Stretch sidebar the height of page grid*/
     grid-row: span 2;
 
     /*Create vertical grid for sidebar options*/
     display: grid;
     grid-template-rows: min-content min-content min-content;
     gap: 50px;
-    
-    /*Add background color and font color*/
+
     background-color: #5b21b6;
     color: aliceblue;
+    font-weight: bold;
+
+    padding-left: 13px;
+    padding-top: 13px;
+}
+
+.sideTitle {
+    font-size: 23px;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+    margin: 13px 0;
 }
