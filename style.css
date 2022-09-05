@@ -34,6 +34,9 @@ html {
 
 .sideTitle {
     font-size: 23px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 li {
@@ -210,4 +213,9 @@ input {
 
 .names {
     color: rgb(106, 96, 84);
+}
+
+.sideTitle > img {
+    height: 36px;
+    width: auto;
 }
