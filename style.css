@@ -12,6 +12,16 @@ html {
 /*Create grid for overall page*/
 body {
     display: grid;
-    grid-template-columns: 2fr 8fr;
+    grid-template-columns: 1.5fr 8.5fr;
     grid-template-rows: 1fr 9fr;
+}
+
+.sidebar {
+    /*Strech sidebar the height of page grid*/
+    grid-row: span 2;
+
+    /*Create vertical grid for sidebar options*/
+    display: grid;
+    grid-template-rows: min-content min-content min-content;
+    gap: 50px;
 }
