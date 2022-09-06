@@ -118,7 +118,7 @@ input {
     z-index: -2;
     display: grid;
     grid-template-columns: 8fr 2fr;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, min-content);
     column-gap: 15px;
     row-gap: 30px;
 }
