@@ -39,10 +39,17 @@ html {
     align-items: center;
 }
 
-li {
-    list-style: none;
+.menu {
     font-size: 20px;
-    margin: 13px 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: min-content;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.menu > img {
+    justify-self: center;
 }
 
 .headerDiv {
