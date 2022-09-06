@@ -212,6 +212,7 @@ input {
     row-gap: 15px;
     font-weight: 325;
     font-size: 15px;
+    align-items: center;
 }
 
 .userImgs {
