@@ -171,7 +171,8 @@ input {
 
 .cardImages {
     display: flex;
-    background-color: #7c3aed;
+    align-self: flex-end;
+    gap: 20px;
 }
 
 .articles {
